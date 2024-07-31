@@ -1,0 +1,79 @@
+/** Configuração da DIV do Banner com id promocao
+**************************************************************************************/
+
+#promocao1 {
+
+    /** Altura e margem **/
+    height: 350px;
+    margin-top: 0px;
+
+    /** Imagem do Banner  **/
+    background-image: url('../imagens/assa1.jpg');
+}
+ #promocao2 {
+
+    /** Altura e margem **/
+    height: 30px;
+    margin-top: 235px;
+    color: rgb(255, 255, 255);
+}
+#promocao2 :hover{
+    /** Muda a cor do link **/
+    color: rgb(1, 41, 56);
+}
+
+
+
+/** Configuração do header principal da promoção com id "promocaoH1" 
+**************************************************************************************/
+
+#promocaoH1 {
+
+    /** Cor da fonte **/
+    color: rgb(255, 255, 255);
+
+    /** Tamanho de fonte **/
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    /** Remove a margem **/
+    margin: 0;
+    
+    /** Posicionando o elemento **/
+    margin-left: 20px;
+    position: absolute;
+
+    /** Aplica sombra ao texto **/
+    text-shadow: 2px 2px 4px #706002;
+}
+
+
+/** Configura o header com o preço no banner com id "promocaoValor" 
+**************************************************************************************/
+
+#promocaoValor {
+
+    /** Cor da fonte  **/
+    color: white;
+
+    /** Tamanho da fonte **/
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+
+    /** Remove a margem  **/
+    margin: 0;
+
+    /** Aplica sombra ao texto **/
+    text-shadow: 2px 2px 4px #080001;
+
+    /** Posiciona os elementos **/
+    left: 110px;
+    top: 130px;
+    position: relative;
+
+    /** Largura **/
+    width: 500px;
+}
+
+
+
